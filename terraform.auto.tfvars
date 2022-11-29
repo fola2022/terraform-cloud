@@ -6,34 +6,30 @@ enable_dns_support = "true"
 
 enable_dns_hostnames = "true"
 
-enable_classiclink = "false"
-
-enable_classiclink_dns_support = "false"
-
 preferred_number_of_public_subnets = 2
 
 preferred_number_of_private_subnets = 4
 
 environment = "dev"
 
-ami-web = "ami-00a45107f7c3455a5"
+ami-web = "ami-0503859108c14db9c"
 
-ami-bastion = "ami-0dbc99375eba56ff4"
+ami-bastion = "ami-085468225d730563c"
 
-ami-nginx = "ami-010bd88cc8f5997f3"
+ami-nginx = "ami-05fdf055ad9a6f0e0"
 
-ami-sonar = "ami-0f8bd95a744e074b8"
+ami-sonar = "ami-0e11d7eb322057374"
 
-keypair = "devops"
+keypair = "fola-ec2"
 
-master-password = "devopspblproject"
+master-password = "fola12345"
 
-master-username = "david"
+master-username = "fola12345"
 
-account_no = "696742900004"
+account_no = "154069555183"
 
 tags = {
-  Owner-Email     = "infradev-segun@darey.io"
-  Managed-By      = "Terraform"
+  Owner-Email     = "folanrewaju29@outlook.com"
+  Managed-By      = "Terraform16"
   Billing-Account = "1234567890"
 }

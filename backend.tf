@@ -1,6 +1,6 @@
 # terraform {
 #   backend "s3" {
-#     bucket         = "pbl-test-18"
+#     bucket         = "fola-terraform18-bucket"
 #     key            = "global/s3/terraform.tfstate"
 #     region         = "us-east-1"
 #     dynamodb_table = "terraform-locks"
@@ -10,10 +10,10 @@
 
 terraform {
   backend "remote" {
-    organization = "pisitis"
+    organization = "hebe-org"
 
     workspaces {
-      name = "PBL-19"
+      name = "terraform-cloud"
     }
   }
 }
