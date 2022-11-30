@@ -95,5 +95,5 @@ resource "aws_autoscaling_group" "nginx-asg" {
 # resource "aws_autoscaling_attachment" "asg_attachment_nginx" {
 #   autoscaling_group_name = aws_autoscaling_group.nginx-asg.id
 #   alb_target_group_arn   = var.nginx-alb-tgt
-}
+#}
 
